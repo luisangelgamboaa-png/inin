@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global Tycoon | Empire Manager</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="app-container">
+        <aside class="sidebar">
+            <div class="logo">
+                <i class="fas fa-globe-americas"></i>
+                <h2>GLOBAL TYCOON</h2>
+            </div>
+            
+            <div class="balance-card">
+                <small>Capital Disponible</small>
+                <h1 id="money">$0</h1>
+                <p id="mps-container">+$<span id="mps">0</span> / seg</p>
+            </div>
+
+            <button id="main-clicker" class="click-area">
+                <i class="fas fa-hand-pointer"></i>
+                GENERAR CAPITAL
+            </button>
+        </aside>
+
+        <main class="main-content">
+            <header>
+                <h2>Mercado de Expansión Global</h2>
+            </header>
+            <div id="countries-grid" class="grid">
+                </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
